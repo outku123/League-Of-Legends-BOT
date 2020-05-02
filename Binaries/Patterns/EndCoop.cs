@@ -22,7 +22,7 @@ namespace LeagueBot
 
             client.skipHonor();
 
-            bot.wait(2000);
+            bot.wait(5000);
 
             if (client.levelUp())
             {
